@@ -14,90 +14,92 @@ description: >-
   activity.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Solana
-  - Memecoin
-  - Launchpad
-  - AMM
-  - Livestreaming
-  - DeFi
-  - Crypto
+- Solana
+- Memecoin
+- Launchpad
+- AMM
+- Livestreaming
+- DeFi
+- Crypto
 created: '2026-05-23'
 modified: '2026-05-23'
 specificationVersion: '0.19'
 apis:
-  - aid: pump-fun:onchain-program
-    name: Pump.fun On-Chain Program (Solana)
-    description: >-
-      The deployed Solana program that implements Pump.fun's token factory and
-      bonding-curve market. Integrators interact directly via Solana RPC and
-      Anchor-style instructions to create tokens, buy and sell along the curve,
-      and detect graduation to PumpSwap.
-    humanURL: https://pump.fun/
-    baseURL: https://pump.fun/
-    tags:
-      - Solana
-      - Smart Contracts
-      - Bonding Curve
-    properties:
-      - type: Website
-        url: https://pump.fun/
-  - aid: pump-fun:pumpswap
-    name: PumpSwap AMM
-    description: >-
-      PumpSwap is Pump.fun's native automated market maker on Solana that hosts
-      liquidity for graduated tokens. Integrators trade and provide liquidity by
-      calling the on-chain program from Solana clients.
-    humanURL: https://pump.fun/
-    baseURL: https://pump.fun/
-    tags:
-      - AMM
-      - DEX
-      - Solana
-      - Liquidity
-    properties:
-      - type: Website
-        url: https://pump.fun/
-  - aid: pump-fun:pump-fun-sdk
-    name: pump-fun-sdk (Community TypeScript SDK)
-    description: >-
-      Open-source TypeScript SDK wrapping the Pump.fun Solana program -
-      create-token, buy, sell, and bonding-curve math. Widely used as the
-      de-facto client because Pump.fun does not publish an official SDK.
-    humanURL: https://github.com/rckprtr/pumpdotfun-sdk
-    baseURL: https://github.com/rckprtr/pumpdotfun-sdk
-    tags:
-      - SDK
-      - TypeScript
-      - Community
-      - Solana
-    properties:
-      - type: Repository
-        url: https://github.com/rckprtr/pumpdotfun-sdk
-  - aid: pump-fun:third-party-indexers
-    name: Third-Party Pump.fun Indexers
-    description: >-
-      Pump.fun activity is most commonly consumed via third-party data providers
-      that index Solana - Bitquery, Helius, Jupiter, Tatum, and similar. These
-      expose REST and GraphQL queries over Pump.fun token launches, trades,
-      holders, and graduations. Profiled here as the practical integration path
-      because Pump.fun itself does not publish a public API contract.
-    humanURL: https://pump.fun/
-    baseURL: https://pump.fun/
-    tags:
-      - Indexer
-      - 3rd-Party
-      - Solana
-      - Analytics
-    properties:
-      - type: Website
-        url: https://pump.fun/
-common:
+- aid: pump-fun:onchain-program
+  name: Pump.fun On-Chain Program (Solana)
+  description: >-
+    The deployed Solana program that implements Pump.fun's token factory and
+    bonding-curve market. Integrators interact directly via Solana RPC and
+    Anchor-style instructions to create tokens, buy and sell along the curve,
+    and detect graduation to PumpSwap.
+  humanURL: https://pump.fun/
+  baseURL: https://pump.fun/
+  tags:
+  - Solana
+  - Smart Contracts
+  - Bonding Curve
+  properties:
   - type: Website
     url: https://pump.fun/
-  - type: Twitter
-    url: https://twitter.com/pumpdotfun
-  - type: Telegram
-    url: https://t.me/pumpdotfun
+  - url: graphql/pump-fun-graphql.md
+    type: GraphQL
+- aid: pump-fun:pumpswap
+  name: PumpSwap AMM
+  description: >-
+    PumpSwap is Pump.fun's native automated market maker on Solana that hosts
+    liquidity for graduated tokens. Integrators trade and provide liquidity by
+    calling the on-chain program from Solana clients.
+  humanURL: https://pump.fun/
+  baseURL: https://pump.fun/
+  tags:
+  - AMM
+  - DEX
+  - Solana
+  - Liquidity
+  properties:
+  - type: Website
+    url: https://pump.fun/
+- aid: pump-fun:pump-fun-sdk
+  name: pump-fun-sdk (Community TypeScript SDK)
+  description: >-
+    Open-source TypeScript SDK wrapping the Pump.fun Solana program -
+    create-token, buy, sell, and bonding-curve math. Widely used as the
+    de-facto client because Pump.fun does not publish an official SDK.
+  humanURL: https://github.com/rckprtr/pumpdotfun-sdk
+  baseURL: https://github.com/rckprtr/pumpdotfun-sdk
+  tags:
+  - SDK
+  - TypeScript
+  - Community
+  - Solana
+  properties:
+  - type: Repository
+    url: https://github.com/rckprtr/pumpdotfun-sdk
+- aid: pump-fun:third-party-indexers
+  name: Third-Party Pump.fun Indexers
+  description: >-
+    Pump.fun activity is most commonly consumed via third-party data providers
+    that index Solana - Bitquery, Helius, Jupiter, Tatum, and similar. These
+    expose REST and GraphQL queries over Pump.fun token launches, trades,
+    holders, and graduations. Profiled here as the practical integration path
+    because Pump.fun itself does not publish a public API contract.
+  humanURL: https://pump.fun/
+  baseURL: https://pump.fun/
+  tags:
+  - Indexer
+  - 3rd-Party
+  - Solana
+  - Analytics
+  properties:
+  - type: Website
+    url: https://pump.fun/
+common:
+- type: Website
+  url: https://pump.fun/
+- type: Twitter
+  url: https://twitter.com/pumpdotfun
+- type: Telegram
+  url: https://t.me/pumpdotfun
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
