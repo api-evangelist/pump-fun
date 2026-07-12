@@ -94,6 +94,10 @@ apis:
   - type: Website
     url: https://pump.fun/
 common:
+- type: VulnerabilityDisclosure
+  url: security/pump-fun-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/pump-fun-domain-security.yml
 - type: Website
   url: https://pump.fun/
 - type: Twitter
