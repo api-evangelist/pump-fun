@@ -72,6 +72,9 @@ apis:
       - type: Repository
         url: https://github.com/rckprtr/pumpdotfun-sdk
 common:
+  - type: License
+    name: MIT
+    url: https://github.com/rckprtr/pumpdotfun-sdk/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/pump-fun-vulnerability-disclosure.yml
   - type: DomainSecurity
