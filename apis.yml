@@ -12,6 +12,18 @@ description: >-
   pump-fun-sdk client. Most "Pump.fun APIs" used in the wider ecosystem are
   third-party indexers (Bitquery, Helius, Jupiter, Tatum) wrapping that on-chain
   activity.
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
@@ -80,6 +92,8 @@ apis:
       - type: Repository
         url: https://github.com/rckprtr/pumpdotfun-sdk
 common:
+  - type: IssueTracker
+    url: https://github.com/rckprtr/pumpdotfun-sdk/issues
   - type: License
     name: MIT
     url: https://github.com/rckprtr/pumpdotfun-sdk/blob/main/LICENSE
