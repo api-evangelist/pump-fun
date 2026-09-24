@@ -73,8 +73,6 @@ apis:
     properties:
       - type: Website
         url: https://pump.fun/
-      - url: graphql/pump-fun-graphql.md
-        type: GraphQL
   - aid: pump-fun:pump-fun-sdk
     name: pump-fun-sdk (Community TypeScript SDK)
     description: >-

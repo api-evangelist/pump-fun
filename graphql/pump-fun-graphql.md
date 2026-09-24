@@ -1,1 +1,0 @@
-# Pump.fun GraphQL API
