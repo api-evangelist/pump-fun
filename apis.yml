@@ -65,7 +65,6 @@ apis:
       Anchor-style instructions to create tokens, buy and sell along the curve,
       and detect graduation to PumpSwap.
     humanURL: https://pump.fun/
-    baseURL: https://pump.fun/
     tags:
       - Solana
       - Smart Contracts
