@@ -54,7 +54,7 @@ tags_raw:
   - DeFi
   - Crypto
 created: '2026-05-23'
-modified: '2026-07-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: pump-fun:onchain-program
@@ -89,6 +89,10 @@ apis:
       - type: Repository
         url: https://github.com/rckprtr/pumpdotfun-sdk
 common:
+  - url: https://medium.com/@pumpdotfun_
+    type: Blog
+  - url: https://medium.com/feed/@pumpdotfun_
+    type: BlogRSS
   - type: IssueTracker
     url: https://github.com/rckprtr/pumpdotfun-sdk/issues
   - type: License
