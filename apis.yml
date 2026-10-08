@@ -89,6 +89,12 @@ apis:
       - type: Repository
         url: https://github.com/rckprtr/pumpdotfun-sdk
 common:
+  - type: Plans
+    url: plans/pump-fun-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/pump-fun-rate-limits.yml
+  - type: FinOps
+    url: finops/pump-fun-finops.yml
   - url: https://medium.com/@pumpdotfun_
     type: Blog
   - url: https://medium.com/feed/@pumpdotfun_
